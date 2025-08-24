@@ -1,6 +1,7 @@
 {
     "appId": "com.someTeamName.shared-codespace",
     "files": ["dist-electron", "dist-react"],
+    "extraResources": ["dist-electron/preload.cjs"],
     "icon": "./AppIcon.png",
     "mac" : {
         "target": "dmg"

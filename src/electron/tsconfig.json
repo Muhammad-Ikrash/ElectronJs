@@ -4,6 +4,9 @@
         "target": "ESNext",
         "module": "NodeNext",
         "outDir": "../../dist-electron",
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        // add global types
+
+        "types": ["../../types"],
     }
 }
